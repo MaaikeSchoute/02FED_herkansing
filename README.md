@@ -55,101 +55,101 @@ Link naar website: https://maaikeschoute.github.io/02FED_herkansing/
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Op deze site kun je alleen de heading horen, en de linkjes. Niets te horen van de headings, of pharagraph texten. Je kan alleen op de links klikken. Het is wel duidelijk waar de link naartoe gaat. Want dat is beschreven in de knop of link. Alleen iets minder duidelijk als je op 'details' klikt. Dat is een uitklap venster, bij een bepaald onderdeel.  Maar als je de koppen niet kan horen, dan weet je ook niet wat voor details je te zien krijgt. In dit geval niets, want je kan alleen met tab naar de knoppen. 
+  ### Bevindingen<br>
+  Op deze site kun je alleen de heading horen, en de linkjes. Niets te horen van de headings, of pharagraph texten. Je kan alleen op de links klikken. Het is wel duidelijk waar de link naartoe gaat. Want dat is beschreven in de knop of link. Alleen iets minder duidelijk als je op 'details' klikt. Dat is een uitklap venster, bij een bepaald onderdeel.  Maar als je de koppen niet kan horen, dan weet je ook niet wat voor details je te zien krijgt. In dit geval niets, want je kan alleen met tab naar de knoppen. <br><br>
 
-  <b>Content</b>
-  Ja | Het is duidelijke tekst zonder lastige spreekwoorden, of gecompliciseerde metaforen.
-  Ja | De knoppen zijn duidelijk beschreven, met duidelijk labels, en unieke beschrijving.
+  <b>Content</b><br>
+  Ja | Het is duidelijke tekst zonder lastige spreekwoorden, of gecompliciseerde metaforen.<br>
+  Ja | De knoppen zijn duidelijk beschreven, met duidelijk labels, en unieke beschrijving.<br><br>
 
-  <b>Global Code</b>
-  Ja | De errors die er zijn, zijn er van de "Dupilicate ID", "A bad value" en "Div's". Div's staan meestal in de buttons. 
-  Ja | Heeft een Lang attribute. 
-  Ja | Elke pagina heeft een eigen titel.
-  Ja | vieport zoom werkt.
+  <b>Global Code</b><br>
+  Ja | De errors die er zijn, zijn er van de "Dupilicate ID", "A bad value" en "Div's". Div's staan meestal in de buttons. <br>
+  Ja | Heeft een Lang attribute. <br>
+  Ja | Elke pagina heeft een eigen titel.<br>
+  Ja | vieport zoom werkt.<br><br>
 
- <b>Keyboard</b>
- Ja | je ziet een tab randje, bij de elementen die hebt geselecteerd met je keyboard.
- Ja | Alle elementen geselecteerd met de tab worden op volgorde van boven naar beneden, en beneden naar boven van de pagina selecteerd.
+ <b>Keyboard</b><br>
+ Ja | je ziet een tab randje, bij de elementen die hebt geselecteerd met je keyboard.<br>
+ Ja | Alle elementen geselecteerd met de tab worden op volgorde van boven naar beneden, en beneden naar boven van de pagina selecteerd.<br><br>
 
- <b>Mobile and Touch</b>
- Nee | Wanneer de mobiel roteerd, dan gaan texten met elkaar overlappen, waardoor de site niet meer leesbaar is.
- Ja | Je kan niet horizontaal scrollen.
- Ja | Knoppen en links kunnen makkelijk worden geklikt.
- Ja | Er zit genoeg ruimte tussen alle interactieve elementen tijdens het scrollen.
+ <b>Mobile and Touch</b><br>
+ Nee | Wanneer de mobiel roteerd, dan gaan texten met elkaar overlappen, waardoor de site niet meer leesbaar is.<br>
+ Ja | Je kan niet horizontaal scrollen.<br>
+ Ja | Knoppen en links kunnen makkelijk worden geklikt.<br>
+ Ja | Er zit genoeg ruimte tussen alle interactieve elementen tijdens het scrollen.<br><br>
 
- <b>Headings</b>
-<img src="readme-images/headings_homepage.jpg" width="375px" alt="Home page HUHF Amount of Headings">
-Ja | De home pagina heeft geen H1. Wel 3 h2's en h3's, 4 h5's, en 2 h6.
-<img src="readme-images/headings_aboutpage.jpg" width="375px" alt="About page HUHF Amount of Headings">
-De About pagina heeft  0 h1, 12 h2's, 15 h3's, 7 h5's en 2 h6's.
-Nee | Er zijn geen H1's.
-Ja | Headings hebben logische volgorde:
-<img src="readme-images/heading_sequence_homepage.jpg" width="375px" alt="About page HUHF heading sequence">
-<img src="readme-images/headings_aboutpage.jpg" width="375px" alt="Home page HUHF heading sequence">
-Nee | Er zijn wel headinglevels geskipt. De H4. 
+ <b>Headings</b><br>
+<img src="readme-images/headings_homepage.jpg" width="375px" alt="Home page HUHF Amount of Headings"><br>
+Ja | De home pagina heeft geen H1. Wel 3 h2's en h3's, 4 h5's, en 2 h6.<br>
+<img src="readme-images/headings_aboutpage.jpg" width="375px" alt="About page HUHF Amount of Headings"><br>
+De About pagina heeft  0 h1, 12 h2's, 15 h3's, 7 h5's en 2 h6's.<br>
+Nee | Er zijn geen H1's.<br>
+Ja | Headings hebben logische volgorde:<br>
+<img src="readme-images/heading_sequence_homepage.jpg" width="375px" alt="About page HUHF heading sequence"><br>
+<img src="readme-images/headings_aboutpage.jpg" width="375px" alt="Home page HUHF heading sequence"><br>
+Nee | Er zijn wel headinglevels geskipt. De H4. <br><br>
 
-<b>Lists</b>
-Er wordt geen gebruik gemaakt van li elementen.
+<b>Lists</b><br>
+Er wordt geen gebruik gemaakt van li elementen.<br><br>
 
-<b>Images</b>
-<img src="readme-images/about_alt_checker.jpg" width="375px" alt="About alt checker results">
-Nee | De website bestaat vooral uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.
-<img src="readme-images/home_alt_check.jog.png" width="375px" alt="Home alt checker results">
-Hetzelfde geld voor de homepage. 
-Nee | De alt in decoratieve images gebruiken geen "0" value.
-<img src="readme-images/image_check_checklist.png" width="375px" alt="proof there's no text to explain img">
-Nee | Er zijn geen alt texten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.
+<b>Images</b><br>
+<img src="readme-images/about_alt_checker.jpg" width="375px" alt="About alt checker results"><br>
+Nee | De website bestaat vooral uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.<br>
+<img src="readme-images/home_alt_check.jog.png" width="375px" alt="Home alt checker results"><br>
+Hetzelfde geld voor de homepage. <br>
+Nee | De alt in decoratieve images gebruiken geen "0" value.<br>
+<img src="readme-images/image_check_checklist.png" width="375px" alt="proof there's no text to explain img"><br>
+Nee | Er zijn geen alt texten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.<br><br>
 
-<b>Media</b>
-This site has no media.
+<b>Media</b><br>
+This site has no media.<br><br>
 
-<b>Controls</b>
-<img src="readme-images/image_check_checklist.png" width="375px" alt="proof there's no text to explain img">
-Ja | De site gebruikt <a hrf=src(#)>a</a> elementen bij links.
-Ja | De links zien eruit als buttons en staan in de nav.
-Ja | De links scrollen mee met de pagina. Maar ze brengen je niet met een sneltoets mee terug naar begin pagina, of laten een layout zien van de verschillende hoofdstukken, waar je naar terug wilt springen.
-<img src="readme-images/focus-state.jpg" width="375px" alt="proof site has focus state on links">
-Ja | De controls hebben focus state.
-<img src="readme-images/focus-state2.jpg" width="375px" alt="proof site has focus state on links">
-Ja | Als de control is geselecteerd, dan klapt hij het uitklap menu uit. Anders laat hij hem dicht. 
-Ja | Alleen in de NAV ga je naar een andere pagina.
+<b>Controls</b><br>
+<img src="readme-images/image_check_checklist.png" width="375px" alt="proof there's no text to explain img"><br>
+Ja | De site gebruikt <a hrf=src(#)>a</a> elementen bij links.<br>
+Ja | De links zien eruit als buttons en staan in de nav.<br>
+Ja | De links scrollen mee met de pagina. Maar ze brengen je niet met een sneltoets mee terug naar begin pagina, of laten een layout zien van de verschillende hoofdstukken, waar je naar terug wilt springen.<br>
+<img src="readme-images/focus-state.jpg" width="375px" alt="proof site has focus state on links"><br>
+Ja | De controls hebben focus state.<br>
+<img src="readme-images/focus-state2.jpg" width="375px" alt="proof site has focus state on links"><br>
+Ja | Als de control is geselecteerd, dan klapt hij het uitklap menu uit. Anders laat hij hem dicht. <br>
+Ja | Alleen in de NAV ga je naar een andere pagina.<br><br>
 
-<b>Appearance</b>
-Nee | Er is geen dark mode. Alleen een light mode.
-Nee | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. 
-Nee | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.
-Ja | Ook zonder kleur is het duidelijk waar de website over gaat.
+<b>Appearance</b><br>
+Nee | Er is geen dark mode. Alleen een light mode.<br>
+Nee | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. <br>
+Nee | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.<br>
+Ja | Ook zonder kleur is het duidelijk waar de website over gaat.<br><br>
 
-<b>Animation</b>
-Ja | De animaties zijn subtiel, en trekken niet teveel de aandacht.
-Nee | Er is geen video, dus ook geen pauze knop voor een video.
-Nee | De afbeeldingen blijven van kleur veranderen als je "Verminder Beweging" inschakeld in "toegankelijkheid".
+<b>Animation</b><br>
+Ja | De animaties zijn subtiel, en trekken niet teveel de aandacht.<br>
+Nee | Er is geen video, dus ook geen pauze knop voor een video.<br>
+Nee | De afbeeldingen blijven van kleur veranderen als je "Verminder Beweging" inschakeld in "toegankelijkheid".<br><br>
 
-<b>Color contrast</b>
-<img src="readme-images/colorcontrast_check.jpg" width="375px" alt="color contrast data">
-<img src="readme-images/colorcontrast_check2.jpg" width="375px" alt="color contrast example">
-<img src="readme-images/contrast_check4.jpg" width="375px" alt="color contrast example">
-Nee | Op de meeste plaatsen is er een goed verschil tussen de kleuren. Maar niet overal is goed het verschil te zien tussen wit, en beige bijvoorbeeld. Voor teksten is deze wel altijd goed te onderscheiden, maar voor de iconen niet. Zelf vind ik op deze afbeelding: 
-<img src="readme-images/contrast_check3.jpg" width="375px" alt="color contrast example 2">
-De tekst in het midden niet erg duidelijk contrasterend met de achtergrond. 
-Nee | Er is geen :: Selection colors? Niet gevonden ieg.
+<b>Color contrast</b><br>
+<img src="readme-images/colorcontrast_check.jpg" width="375px" alt="color contrast data"><br>
+<img src="readme-images/colorcontrast_check2.jpg" width="375px" alt="color contrast example"><br>
+<img src="readme-images/contrast_check4.jpg" width="375px" alt="color contrast example"><br>
+Nee | Op de meeste plaatsen is er een goed verschil tussen de kleuren. Maar niet overal is goed het verschil te zien tussen wit, en beige bijvoorbeeld. Voor teksten is deze wel altijd goed te onderscheiden, maar voor de iconen niet. Zelf vind ik op deze afbeelding: <br>
+<img src="readme-images/contrast_check3.jpg" width="375px" alt="color contrast example 2"><br>
+De tekst in het midden niet erg duidelijk contrasterend met de achtergrond. <br>
+Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 
-<b>Samenvatting:</b>
-  • | De errors die er zijn, zijn er van de "Dupilicate ID", "A bad value" en "Div's". Div's staan meestal in de buttons. 
-  • | De home pagina heeft geen H1. Wel 3 h2's en h3's, 4 h5's, en 2 h6. 
-  • | Er worden ook H's geskipt in de volgorde van de pagina. H4 komt bijvoorbeeld helemaal niet voor.
-  • | Er wordt geen gebruik gemaakt van li elementen op locaties waar dat wel kan, of een betere oplossing kan zijn.
-  • | De website bestaat voor een groot deel uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.
-  • | De alt in decoratieve images gebruiken geen "0" value.
-  • | Er zijn geen alt texten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.
-  • | Er is geen dark mode. Alleen een light mode.
-  • | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. 
-  • | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.
-  • | De afbeeldingen blijven van kleur veranderen als je "Verminder Beweging" inschakeld in "toegankelijkheid".
-  • | Op de meeste plaatsen is er een goed verschil tussen de kleuren. Maar niet overal is goed het verschil te zien tussen wit, en beige bijvoorbeeld. Voor teksten is deze wel (bijna) altijd goed te onderscheiden.
-  • | maar voor de iconen (logo achtergong, ronding van -> knoppen) niet.
-  • | Er is geen :: Selection colors? Niet gevonden ieg.
+<b>Samenvatting:</b><br>
+  • | De errors die er zijn, zijn er van de "Dupilicate ID", "A bad value" en "Div's". Div's staan meestal in de buttons. <br>
+  • | De home pagina heeft geen H1. Wel 3 h2's en h3's, 4 h5's, en 2 h6. <br>
+  • | Er worden ook H's geskipt in de volgorde van de pagina. H4 komt bijvoorbeeld helemaal niet voor.<br>
+  • | Er wordt geen gebruik gemaakt van li elementen op locaties waar dat wel kan, of een betere oplossing kan zijn.<br>
+  • | De website bestaat voor een groot deel uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.<br>
+  • | De alt in decoratieve images gebruiken geen "0" value.<br>
+  • | Er zijn geen alt texten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.<br>
+  • | Er is geen dark mode. Alleen een light mode.<br>
+  • | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. <br>
+  • | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.<br>
+  • | De afbeeldingen blijven van kleur veranderen als je "Verminder Beweging" inschakeld in "toegankelijkheid".<br>
+  • | Op de meeste plaatsen is er een goed verschil tussen de kleuren. Maar niet overal is goed het verschil te zien tussen wit, en beige bijvoorbeeld. Voor teksten is deze wel (bijna) altijd goed te onderscheiden.<br>
+  • | maar voor de iconen (logo achtergong, ronding van -> knoppen) niet.<br>
+  • | Er is geen :: Selection colors? Niet gevonden ieg.<br>
 </details>
 
 
@@ -195,14 +195,31 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  <b>Robin</b>
+  - gebruik een echte SVG tag. let erop dat je alles netjes nest. 
+  - Bij het gebruikt van een section, moet een heading. Je mag wel sections gebruiken.
+  - je mag niet veel sections in eeen section stoppen.
+
+  <b>Xar</b>
+  - Je kan een nav in je footer plaatsen. Youtube. 
+  
+
+  <b>Maaike</b>
+  - Id voor de body van pagina 2. En daarin de headings anders aanspreken. 
+  headings zijn alleen voor belangijke section. Alles wat daarin hoort, wordt georganiseerd in headings, dus belangrijkste h2, dan 3.etc
+  - GEEN DIV. Gebruikt de svg;s. Als je dingen wilt boxen, gebruik dan figure. = voor figuren, video;s, beelden. geen p's, mag wel een fig caption. 
+  - uitschuif menu heet een detial. 
+  - ff je eigen linkje in de excel zetten.  - check
+
+  <b>Zhafira</b>
+  - iets met labels. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - SVG's kun je gewoon van de orginele site kopieren van de inspector, en plakken in je eigen code. Het klopt dat deze er elke keer heel anders uitziet. 
+  - Je kan een #id pagina2 en daarin alle H's en andere vormgeving die aangepast moet worden aanpassen
+  - maak de html pagina's.
 
 </details>
 
@@ -325,7 +342,11 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.
   Nb. Vermeld de bronnen ook in je code.
 
   1. [bron 1](https://www.seoreviewtools.com/html-headings-checker/) - het checken van de headings op de webpagina.
-  2. [bron 2 ](https://ralfvanveen.com/en/tools/alt-attribute-checker/) Alt checker website
-  3. ...
+  2. [bron 2](https://ralfvanveen.com/en/tools/alt-attribute-checker/) Alt checker website
+  3. [bron3]SVG export - Google Chrome extentie om SVG's van een webpagina te scrapen.
+  4. [bron4] Hoe maak je een form?: https://www.google.com/search?q=hoe+maak+je+unvul+form+html&sca_esv=f04038ad81816743&sxsrf=AE3TifN4i9sADXbdX9Vx2Jl7qCX_S6ff_A%3A1758367077756&ei=ZY3OaJzpLYzq7_UPgZCVoQo&ved=0ahUKEwjcr7fom-ePAxUM9bsIHQFIJaQQ4dUDCBA&uact=5&oq=hoe+maak+je+unvul+form+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2hvZSBtYWFrIGplIHVudnVsIGZvcm0gaHRtbDIIEAAYgAQYogQyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSIgtUK8EWIUrcAR4AZABAJgBeKAB9xKqAQQyNS41uAEDyAEA-AEBmAIioALeE6gCEMICBxAjGCcY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgsQLhiABBjRAxjHAcICBRAAGIAEwgIFEC4YgATCAggQLhiABBjUAsICCxAuGIAEGMcBGK8BwgIKECMY8AUYJxjJAsICCBAAGIAEGMsBwgIHEAAYgAQYCsICBhAAGBYYHsICCBAAGAgYDRgewgIHEAAYgAQYDcICCRAAGIAEGBMYDcICCBAAGBMYDRgewgIKEAAYExgIGA0YHsICBRAhGKABwgIHECEYoAEYCsICChAAGAgYChgNGB7CAgsQABiABBiGAxiKBZgDBPEFHL521MX8CMO6BgYIARABGAGSBwQyOC42oAfzxQGyBwQyNC42uAfQE8IHBjUuMjAuOcgHUQ&sclient=gws-wiz-serp
+  5. [bron] Forms uitleg: https://chatgpt.com/share/68cea3ac-1ffc-8009-b70a-63681384af5e
+  
+
 
 </details>
