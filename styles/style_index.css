@@ -1,0 +1,97 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;
+  font-family:'TT Commons', Arial, sans-serif; 
+  text-align:left;
+  color:var(--color-text);
+  margin:0;
+  padding:0;
+}
+
+*::selection {
+  background-color:var(--color-yellow);
+  color:var(--color-body-background);
+}
+
+@media (prefers-color-scheme:dark) {
+  *::selection {
+  background-color:var(--color-darkmode-yellow);  
+  }
+}
+
+*:focus {
+  background-color:var(--color-darkmode-yellow);
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+body {
+  line-height:1.6;
+  background-color:var(--background-color);
+  gap:0em;
+}
+
+/****************/
+/*   GENERAL    */
+/****************/
+
+/*      hide h1      */
+.visually-hidden {
+  clip:rect(0 0 0 0);
+  clip-path:inset(50%);
+  height:1px;
+  overflow:hidden;
+  position:absolute;
+  white-space:nowrap;
+  width:1px;
+}
+
+h2 {
+    font-family:'tt_commons_bold', Arial, Helvetica, sans-serif;
+    font-size:3em;
+    line-height:.8em;
+    font-style:bold;
+    font-weight:700;
+    letter-spacing:-.05em;
+}
+
+h3 {
+    font-family:'tt_commons_bold', Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    font-style:bold;
+    font-weight:700;
+}
+
+p {
+    font-family:'tt_commons_regular', Arial, Helvetica, sans-serif;
+    font-size:2em;
+    line-height:1em;
+}
+
+a {
+    font-family:'tt_commons_regular', Arial, Helvetica, sans-serif;
+    font-size:2em;
+    padding:.6em;
+    text-decoration-thickness:.3rem;
+    text-decoration-style:dotted;
+    text-decoration-skip-ink:all;
+    text-underline-offset:0.6rem;
+    text-align:right;
+}
+
+a:hover {
+  -webkit-transition: all 1s ease;
+  transition: all .3s ease; /*[bron] https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover*/
+  text-underline-offset:1rem;
+}
+
+a:focus {
+  -webkit-transition: all 1s ease;
+  transition: all .3s ease;
+  text-underline-offset:.6rem;
+  background-color:var(--color-yellow);
+}

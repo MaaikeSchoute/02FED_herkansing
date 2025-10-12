@@ -23,7 +23,7 @@ Link naar website: https://maaikeschoute.github.io/02FED_herkansing/
 
   #### Je focus:
   Plane
- 
+
 </details>
 
 
@@ -39,7 +39,7 @@ Link naar website: https://maaikeschoute.github.io/02FED_herkansing/
   https://phamilypharma.com/concept
   of: https://www.hurryupandhavefun.com/
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
+  #### Screenshot(s) van de eerste pagina (small screen):
   Homepage
   <img src="readme-images/huahf_homepage.jpg" width="375px" alt="Home page: Hurry up and have fun">
 
@@ -159,15 +159,15 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:
   <img src="readme-images/breakdownschets_about_page_breakdown.jpg" width="375px" alt="breakdown van de hele pagina Home">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):
   <img src="readme-images/breakdownschets_home_page_breakdown.jpg" width="375px" alt="breakdown van de hele pagina About">
 
 
 <b>Vragen</b>
-• | Op de homepage staan alle h's in volgorde van H2 naar H6. Maar als ik dezelfde H stijlen gebruik bij de About pagina, dan staan de h's niet meer op volgorde. Moet je dan 2 verschillende style sheets maken? 
+• | Op de homepage staan alle h's in volgorde van H2 naar H6. Maar als ik dezelfde H stijlen gebruik bij de About pagina, dan staan de h's niet meer op volgorde. Moet je dan 2 verschillende style sheets maken?
 • | het is ook lastiger om de kopjes vorm te geven, gezien h6:nth(1) { } niet dezelfde kleur heeft op de home page als op de about page. Hoe kan ik dit oplossen?
 • | Ik heb ook een aantal div's.... Omdat er was 'decoratie figuren' in het ontwerp zitten. moet ik die veranderen naar svg's? Zodat de div's weg gaan? En graag nog een x de uitleg wanneer secties, en div's te gebruiken :D.
 • | Hoe noem je zo'n uitschuif menu?
@@ -196,28 +196,28 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   | ...            | ...                | ...          | ...              |
 
   <b>Robin</b>
-  - gebruik een echte SVG tag. let erop dat je alles netjes nest. 
+  - gebruik een echte SVG tag. let erop dat je alles netjes nest.
   - Bij het gebruikt van een section, moet een heading. Je mag wel sections gebruiken.
   - je mag niet veel sections in eeen section stoppen.
 
   <b>Xar</b>
-  - Je kan een nav in je footer plaatsen. Youtube. 
-  
+  - Je kan een nav in je footer plaatsen. Youtube.
+
 
   <b>Maaike</b>
-  - Id voor de body van pagina 2. En daarin de headings anders aanspreken. 
+  - Id voor de body van pagina 2. En daarin de headings anders aanspreken.
   headings zijn alleen voor belangijke section. Alles wat daarin hoort, wordt georganiseerd in headings, dus belangrijkste h2, dan 3.etc
-  - GEEN DIV. Gebruikt de svg;s. Als je dingen wilt boxen, gebruik dan figure. = voor figuren, video;s, beelden. geen p's, mag wel een fig caption. 
-  - uitschuif menu heet een detial. 
+  - GEEN DIV. Gebruikt de svg;s. Als je dingen wilt boxen, gebruik dan figure. = voor figuren, video;s, beelden. geen p's, mag wel een fig caption.
+  - uitschuif menu heet een detial.
   - ff je eigen linkje in de excel zetten.  - check
 
   <b>Zhafira</b>
-  - iets met labels. 
+  - iets met labels.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - SVG's kun je gewoon van de orginele site kopieren van de inspector, en plakken in je eigen code. Het klopt dat deze er elke keer heel anders uitziet. 
+  - SVG's kun je gewoon van de orginele site kopieren van de inspector, en plakken in je eigen code. Het klopt dat deze er elke keer heel anders uitziet.
   - Je kan een #id pagina2 en daarin alle H's en andere vormgeving die aangepast moet worden aanpassen
   - maak de html pagina's.
 
@@ -233,8 +233,22 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze keer was ik bezig met het maken van mijn CSS. Het duurde me veelste lang om erachter te komen hoe ik de typografie moest downloaden van de site hurryupanhavefun.com. Nadat ik ze dinsdag 30 sepember had gedowload na een demonstratie van 1 seconde, was het nog lastig uit te zoeken welk lettertype ik had gedownload. Ze hadden namen als 01GDJG13423jgd^&8.tt. Daar maakte ik een test document, om te kijken welke fonts het waren.<br>
+ <img src="readme-images/test.png" width="375px" alt="test letterype">
+ <img src="readme-images/test_2.png.png" width="375px" alt="test letterype"><br>
+ Ook had ik twijfels welke volgorde ik de h2's en h3's moetst doen. Maar Sanne zei dat het al goed was dat ik hier overnadacht, en dat het in prince niet veel uitmaakte, zolang ik kon vertellen waarom ik de keuze had gemaakt. <br><br>
 
+<b>WAT GEDAAN</b>
+ - Meerder stylesheets.css gemaakt. 1 voor font faces. 1 om alle headings, p's etc aan te passen. 1 voor alle kleuren. 1 voor all het andere.<br>
+ - Heel veel dingen mislukt enzo. <br>
+
+
+ <b>VRAGEN</b>
+ - moeten de SVG's in in het mapje bij je img staan? Of hoeft dat niet omdat ze in code al in de html staan? <br>
+ - Hoe kan ik die blauwe blokjes in header niet meer in een margin hebben? Moet ik het dan uit de header halen? En een soort 'zwevend' ding van maken? (tussen de <header> en <main> in). Of is daar een andere code voor?<br>
+ - vragen hoe ik de NAV goed krijg. (1. Hoe ze aan de linkerkant komen te staan. 3. Iets met flexbox, en dat ze sticky blijven in de top).<br>
+ - Nog een keer vragen welke code/welke site/promp op te zoeken om dat rondje met scrollen te laten draaien. <br>
+ - Waarom neemt de <main> niet de hele breedte in beslag, maar lijkt het alsof er een margin omheen zit?<br>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -245,11 +259,20 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  <b>Robin</b>
+  Niet aan de SVG viewport komen. Je kan css gewoon als svg aanspreken in de css. 
+
+  <b>Maaike</b>
+  - gebruik top, right, bij de verschillende elementen.
+  - svg's kun je laten staan, maar hoeft niet in een mapje te staan. Is wel handig om een map te hebben waar ze allemaal staan. 
+
+  <b>Zhafira</b>
+  Moest een nav tussen bij javascript. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - Ik moet dingen snelle vragen als ik vastloop, omdat er nogal 'vieze' dingen in mijn code staan.
   - punt 2
   - nog een punt
 - ...
@@ -316,7 +339,7 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
+  ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
@@ -337,7 +360,7 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
+  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
@@ -346,7 +369,11 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   3. [bron3]SVG export - Google Chrome extentie om SVG's van een webpagina te scrapen.
   4. [bron4] Hoe maak je een form?: https://www.google.com/search?q=hoe+maak+je+unvul+form+html&sca_esv=f04038ad81816743&sxsrf=AE3TifN4i9sADXbdX9Vx2Jl7qCX_S6ff_A%3A1758367077756&ei=ZY3OaJzpLYzq7_UPgZCVoQo&ved=0ahUKEwjcr7fom-ePAxUM9bsIHQFIJaQQ4dUDCBA&uact=5&oq=hoe+maak+je+unvul+form+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2hvZSBtYWFrIGplIHVudnVsIGZvcm0gaHRtbDIIEAAYgAQYogQyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSIgtUK8EWIUrcAR4AZABAJgBeKAB9xKqAQQyNS41uAEDyAEA-AEBmAIioALeE6gCEMICBxAjGCcY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgsQLhiABBjRAxjHAcICBRAAGIAEwgIFEC4YgATCAggQLhiABBjUAsICCxAuGIAEGMcBGK8BwgIKECMY8AUYJxjJAsICCBAAGIAEGMsBwgIHEAAYgAQYCsICBhAAGBYYHsICCBAAGAgYDRgewgIHEAAYgAQYDcICCRAAGIAEGBMYDcICCBAAGBMYDRgewgIKEAAYExgIGA0YHsICBRAhGKABwgIHECEYoAEYCsICChAAGAgYChgNGB7CAgsQABiABBiGAxiKBZgDBPEFHL521MX8CMO6BgYIARABGAGSBwQyOC42oAfzxQGyBwQyNC42uAfQE8IHBjUuMjAuOcgHUQ&sclient=gws-wiz-serp
   5. [bron] Forms uitleg: https://chatgpt.com/share/68cea3ac-1ffc-8009-b70a-63681384af5e
-  
+  6. [bron] min-max grid uitleg en error fix: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b
+  7. [bron] animation nav: https://chatgpt.com/share/68e0eb5e-b7f0-8009-a091-29389efbdb85
+  8. [bron] grid calculator: https://cssgrid-generator.netlify.app/
+  9. [bron] space between letters: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
 
 
 </details>

@@ -1,0 +1,153 @@
+/****************/
+/*   HEADER     */
+/****************/
+header {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:100vh;
+    grid-template-rows:1fr 2fr 1fr 1fr;
+    position: relative;
+    gap:1em;
+    /* padding:1em; */
+
+    background-image:
+        conic-gradient(
+        transparent 90deg,
+        #6796ec 90deg 180deg,
+        transparent 180deg 270deg,
+        #6796ec 270deg
+    );
+  
+    background-size:20vw 20vw;
+    background-repeat:repeat-x;
+    background-position:bottom left;
+}
+
+header nav {
+  display: flex;
+  align-items:right;
+  position:relative;
+  grid-column-start:1;
+  grid-column-end:5;
+}
+
+header nav a svg {
+    width:35vw!important; 
+    height:auto;
+    grid-column-start:1;
+    margin-right:1em;
+}
+
+header > svg {
+    position:absolute;
+    bottom:40vh;
+    top: 0em;
+    fill:aliceblue;
+}
+
+@media (min-width: 800px) {
+    header nav {
+        margin:0;
+    }
+    
+    header nav a svg {
+        width:40vw!important; /* wat moet ik ipv important neerzetten? Niets anders lijkt te werken.*/
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    header nav a svg {
+        fill:var(--color-peach);
+    }
+} 
+
+
+/* vierkant ABOUT- */
+header nav p a {
+    font-family:'tt_commons_bold', Arial, Helvetica, sans-serif;
+    font-size:1em;
+    font-style:bold;
+    font-weight:700;
+    display:inline-block;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:5em;
+    height:5em;
+    
+    background-color:var(--color-pink);
+    text-decoration:none;
+    z-index:1;
+    right:5em;
+    /* position:absolute; */
+}
+
+header nav p:nth-of-type(1),
+header nav p:nth-of-type(2) {
+    position: sticky;
+    top:0;
+}
+
+@media (min-width: 800px) {
+    header nav p a {
+        font-size:1em;
+        width:4em;
+        height:4em; 
+        right:4em; 
+    } 
+
+    header nav p {
+        font-size: 2em;
+    }  
+}
+
+/* rondje INQUIRE*/
+header nav p:last-child {
+    /* design cirkel */
+    display:inline-block;
+    width:auto;
+    height:5em;
+    background-color:var(--color-yellow);
+    color:var(--color-text);
+    padding:1em;
+
+    /* posititie van de text */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    line-height:150px;
+    border-radius:50%;
+    right:0em;
+    /* position:absolute; */
+}
+
+@media (min-width: 800px) {
+    header nav p:last-child {
+        width:4em;
+        height:4em;  
+    } 
+    
+     header nav p {
+        font-size: 2em;
+    }
+}
+
+header nav p:hover,
+header nav p a:hover{
+    animation:disco-color 2s linear infinite;
+}
+
+@keyframes disco-color {
+    0% { background-color: var(--color-pink); }
+    10% { background-color: var(--color-yellow); }
+    20% { background-color: var(--color-blue); }
+    30% { background-color: var(--color-green); }
+    40% { background-color: var(--color-dark-green); }
+    50% { background-color: var(--color-purple); }
+    60% { background-color: var(--color-orange); }
+    70% { background-color: var(--color-lilac); }
+    80% { background-color: var(--color-mint); }
+    90% { background-color: var(--color-text); }
+    100% { background-color: var(--color-green); }
+    }
