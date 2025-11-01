@@ -102,11 +102,11 @@ main section:nth-child(2) {
 }
 
 main section:nth-child(2) h2 {
-   font-family:'tt_commons_bold';
+    font-family:'tt_commons_bold';
     font-size:bold;
     font-weight:700;
     text-transform:uppercase; /*[bron] https://www.shecodes.io/athena/103773-how-to-uppercase-a-text-on-css#:~:text=To%20uppercase%20text%20in%20CSS,the%20targeted%20element%20to%20uppercase.*/
-    font-size:1.5em;
+    font-size:2em;
     grid-row:1;
     grid-column:1 / 7; /* Korter geschreven: span over alle 6 kolommen */
     margin-bottom:1em;
@@ -158,9 +158,9 @@ main section:nth-child(2) h3:last-of-type {
 
 @media (min-width: 1200px) {
     main section:nth-child(2) h3:last-of-type  {
-        grid-row:3;
+        grid-row:4;
         grid-column:1 / 4;
-        justify-self: top;
+        align-self:end;
     }
 }
 
@@ -169,11 +169,14 @@ main section:nth-child(2) > p {
     grid-column:1 / 7; 
     padding:1em;
     padding-top:0;
+    align-self:end;
     }
 
 @media (min-width: 1200px) {
     main section:nth-child(2) p  {
-        grid-column:1 /3;
+        grid-column:1 / 3;
+        grid-row: 5 / 6;
+        align-self: end;
     }
 }
 
@@ -184,15 +187,12 @@ main section:nth-child(2) > a {
     background-color:var(--color-purple);
     align-self:end; /*[bron] where to align?: https://css-tricks.com/snippets/css/complete-guide-grid/ */
     text-decoration-style:dotted;
-    /* text-decoration-thickness:.3rem;
-    text-decoration-skip-ink:all;
-    text-underline-offset:0.6rem; */
 }
 
 @media (min-width: 1200px) {
     main section:nth-child(2) > a  {
         grid-column:1 / 4;
-        grid-row:end;
+        grid-row: 6 / 7;
     }
 }
 
@@ -212,7 +212,7 @@ main section:nth-child(2) figure {
 @media (min-width: 1200px) {
     main section:nth-child(2) > figure  {
         grid-column:4 / 7;
-        grid-row:end;
+        grid-row:4 / 7;
     }
 }
 
@@ -254,3 +254,315 @@ main section:nth-child(2) figure p:nth-child(2) {
 /****************/
 /*      S3      */
 /****************/
+
+/* De volgende bronnen zijn gebruikt voor het maken van deze carousel. + Dit was uitgelegd tijdens de feedback rondes. */
+/* https://developer.chrome.com/blog/carousels-with-css#carousel_gallery */
+/* https://chrome.dev/carousel-configurator/ */
+
+/* https://developer.chrome.com/docs/css-ui/anchor-positioning-api */
+/* https://chrome.dev/anchor-tool/ */
+
+
+main section:nth-child(3) {
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows:auto auto auto auto auto auto;
+    gap:0em;
+    height:75vh;
+    padding:1.5em;
+    padding-top:0em;
+}
+
+main section:nth-child(3) h2 {
+    font-family:'tt_commons_bold';
+    font-weight:bold;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:2em;
+    grid-row:1;
+    grid-column:1 / 7;
+    margin-bottom:1em;
+
+    display:flex;
+    height:auto;
+    width:auto;
+    background-color:var(--color-blue);
+    justify-self:center;
+    align-items: center;
+    padding:.5em;
+}
+
+main section:nth-child(3) ul {
+	grid-column: 1 / 7;
+    
+    margin:0;
+	padding:0;
+	list-style-type:"";
+    font-size: 1.5em;
+	
+	background-color:transparent;
+	
+	display:flex;
+	gap:4em;
+	overflow:auto;
+	
+	padding:3em;
+	
+	scroll-snap-type:x mandatory;
+	
+	scroll-behavior:smooth;
+	
+	overscroll-behavior-x:contain;
+	
+	anchor-name: --carousel;
+}
+
+main section:nth-child(3) ul {
+  scroll-marker-group: after;
+
+  /* Dit is de vormgeving van de puntjes. Die geven aan hoeveel slides er nog zijn, en bij welke slide de gebruiker is.*/
+  &::scroll-marker-group {
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: block-end;
+    position-visibility: always;
+    margin: 10px;
+
+    display: grid;
+    grid-auto-columns: 20px;
+    grid-auto-flow: column;
+    gap: 20px;
+  }
+}
+ main section:nth-child(3) ul > li {
+    &::scroll-marker {
+      content: '' / attr(data-label);
+			
+			width:1em;
+			height:1em;
+			background-color:var(--color-baby-blue);
+			border-radius:50%;
+    }
+
+    &::scroll-marker:target-current {
+      background: var(--color-blue);
+    }
+  }
+
+/* Dit is de vormgeving de knoppen. */
+main section:nth-child(3) ul {
+  &::scroll-button(*) {
+    position: fixed;
+		
+    position-anchor: --carousel;
+		
+    position-visibility: always;
+    font-family: "Material Symbols Outlined";
+
+    display:block;
+    width:5em;
+    height:5em;
+    border-radius: 50%;
+    background-color:var(--color-baby-blue);
+  }
+
+  &::scroll-button(right) {
+    position-area: bottom center;
+	justify-self:end;
+    content: '➤' / 'Next';
+  }
+
+  &::scroll-button(left) {
+    position-area: bottom center;
+	justify-self:start;
+    content:'➤'/ 'Previous';
+    rotate:180deg;
+  }
+
+  &::scroll-button(right):hover {
+        background-color:var(--color-yellow);
+    }
+
+    &::scroll-button(left):hover{
+        background-color:var(--color-yellow);
+    }
+
+    &::scroll-button(right), &::scroll-button(left):active {
+        background-color:var(--color-purple);
+    }
+}
+
+main section:nth-child(3) ul li {
+	flex-basis:50vw;
+	aspect-ratio:1/1;
+	background-color:transparent;
+	
+	flex-shrink:0;
+	
+	scroll-snap-align:center;
+}
+
+
+/****************/
+/*      S4      */
+/****************/
+/*[bron] https://claude.ai/public/artifacts/74e4e7a9-c634-4696-87e1-bd1e723bd540 + Code hulp van Sanne*/
+
+main section:nth-child(4) {
+    display:grid;
+    grid-template-columns:3vw repeat(4, 1fr) 3vw;
+    grid-template-rows:3vw auto auto auto auto auto auto 3vw;
+
+    background-image:
+        conic-gradient(
+        #FF69B4 90deg,
+        #fc8155 90deg 180deg,
+        #FF69B4 180deg 270deg,
+        #fc8155 270deg
+    );
+  
+    background-size:50vw 50vw;
+    background-position:center center;
+    margin-top:5em;
+    /* height:7vh; */
+}
+
+/* VORMGEVING DIV */
+main section:nth-child(4) div {
+    background-color:var(--background-color);
+    grid-column:2/6;
+    grid-row:2/7;
+
+    display:grid;
+    grid-template-columns:3em repeat(5, 1fr) 3em ;
+    grid-template-rows:10vh repeat(4, auto) 2em;
+    padding-bottom:3em;
+}
+
+
+
+/* VORMGEVING H2 */
+main section:nth-child(4) h2 {
+    grid-row:2;
+    grid-column:2/6;
+    align-self:end;
+    /* padding:1em 1em 0em 0.6em; */
+    /* https://claude.ai/share/109a203b-3bb1-4d7d-88ee-183f51e32e0e */
+    max-width: 6em; /* pas aan */
+   /* forceert break na elk woord */
+   font-size: 3.5em;
+}
+
+
+/* VORMGEVING P */
+main section:nth-child(4) p {
+    grid-row:3;
+    grid-column:2/6;
+    padding-bottom:5em;
+    padding-top:.5em;
+    /* font-size:1.5em; */
+}
+
+
+/* VORMGEVING DIV > FIGURE */
+main section:nth-child(4) div > figure {
+    grid-row:4;
+    grid-column:1/8;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:0;
+}
+
+
+
+/* VORMGEVING DIV> FIGURE > BLAUW 1 */
+main section:nth-child(4) div > figure > figure:nth-child(1) {
+    background-color:var(--color-blue);
+    height:100%;
+    grid-column:1;
+    grid-row:1 / 4;
+}
+
+
+
+/* VORMGEVING > FIGURE > BLAUW > GROENE ACHTERGROND VAN IMG */
+main section:nth-child(4) div > figure > figure:nth-child(2) {
+    background-color:var(--color-dark-green);
+    grid-column:2;
+    grid-row:1 / 3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    order:1;
+}
+
+/* De afbeelding in de groene figuur */
+main section:nth-child(4) div > figure > figure:nth-child(2) img {
+    height:16em;
+    width:16em;
+    grid-column:2;
+    grid-row:1 / 3;
+    border-radius:50%;
+    object-fit:cover;
+    background-color:var(--color-light-green);
+}
+
+main section:nth-child(4) div > img {
+    width:1em;
+    height:auto;
+}
+
+
+/* VORMGEVING FIGURE > BLAUW > IMG > IMG OVERLAY | GROENE CIRKEL */
+main section:nth-child(4) div > figure > figure:nth-child(3) {
+grid-column:2;
+    grid-row:1/3;
+    border-radius:50%;
+    object-fit:cover;
+    background-color:var(--color-light-green);
+    z-index: 10;
+}
+
+main section:nth-child(4) div > figure > figure:nth-child(3):hover {
+    visibility: hidden;
+}
+
+/* VORMGEVING BUTTON */
+main section:nth-child(4) a, main section:nth-child(4) button  {
+    background-color:var(--color-dark-yellow);
+    grid-row:7;
+    grid-column:2 / 7;
+    border:none;
+    padding:0.2em 1em 0.2em 1em;
+    font-size:1em;
+    align-self:start;
+    display:flex;
+    justify-content: center;
+    font-size:1.5em;
+}
+
+main section:nth-child(4) a {
+    background-color:none;
+}
+
+main section:nth-child(4) a:hover, main section:nth-child(4) button:hover  {
+    background-color:var(--color-blue);
+}
+
+main section:nth-child(4) a, main section:nth-child(4) button p {
+    font-size:1.3em;
+    padding:1em;
+}
+
+main section:nth-child(4) button img:first-of-type {
+    margin-right:1em;
+}
+
+main section:nth-child(4) a button img:last-of-type {
+    margin-left:1em;
+}
+
+
+
+

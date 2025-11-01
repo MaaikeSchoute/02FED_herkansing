@@ -142,7 +142,7 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   • | Er wordt geen gebruik gemaakt van li elementen op locaties waar dat wel kan, of een betere oplossing kan zijn.<br>
   • | De website bestaat voor een groot deel uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.<br>
   • | De alt in decoratieve images gebruiken geen "0" value.<br>
-  • | Er zijn geen alt texten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.<br>
+  • | Er zijn geen alt teksten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.<br>
   • | Er is geen dark mode. Alleen een light mode.<br>
   • | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. <br>
   • | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.<br>
@@ -167,11 +167,11 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 
 
 <b>Vragen</b>
-• | Op de homepage staan alle h's in volgorde van H2 naar H6. Maar als ik dezelfde H stijlen gebruik bij de About pagina, dan staan de h's niet meer op volgorde. Moet je dan 2 verschillende style sheets maken?
-• | het is ook lastiger om de kopjes vorm te geven, gezien h6:nth(1) { } niet dezelfde kleur heeft op de home page als op de about page. Hoe kan ik dit oplossen?
-• | Ik heb ook een aantal div's.... Omdat er was 'decoratie figuren' in het ontwerp zitten. moet ik die veranderen naar svg's? Zodat de div's weg gaan? En graag nog een x de uitleg wanneer secties, en div's te gebruiken :D.
+• | Op de homepage staan alle h's in volgorde van H2 naar H6. Maar als ik dezelfde H stijlen gebruik bij de About pagina, dan staan de h's niet meer op volgorde. Moet je dan 2 verschillende style sheets maken?<br>
+• | het is ook lastiger om de kopjes vorm te geven, gezien h6:nth(1) { } niet dezelfde kleur heeft op de home page als op de about page. Hoe kan ik dit oplossen?<br>
+• | Ik heb ook een aantal div's.... Omdat er was 'decoratie figuren' in het ontwerp zitten. moet ik die veranderen naar svg's? Zodat de div's weg gaan? En graag nog een x de uitleg wanneer secties, en div's te gebruiken :D.<br>
 • | Hoe noem je zo'n uitschuif menu?
-</details>
+</details><br><br>
 
 
 
@@ -189,20 +189,19 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Robin                | Safea              | Zhafira           | Maaike           |
+  | ---                  | ---                | ---               | ---              |
+  | websitestructuur     | websitestructuur   | websitestructuur  | wanneer div's    |
+  | nav                  | ....               | carosel           | wanneer sectoren |
+  | html                 | ...                | producviewer      | websitestructuur |
 
   <b>Robin</b>
-  - gebruik een echte SVG tag. let erop dat je alles netjes nest.
+  - gebruik een echte SVG tag. let erop dat je alles netjes nest. 
   - Bij het gebruikt van een section, moet een heading. Je mag wel sections gebruiken.
   - je mag niet veel sections in eeen section stoppen.
 
   <b>Xar</b>
   - Je kan een nav in je footer plaatsen. Youtube.
-
 
   <b>Maaike</b>
   - Id voor de body van pagina 2. En daarin de headings anders aanspreken.
@@ -253,11 +252,11 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Safae      | Zhafira                | Maaike              | Robin        |
+  | ---        | ---                    | ---                 | ---          |
+  | classes    | Automatische carousel  | Flexbox             | Nog niet ver |
+  | sections   | Hoe met javascript     | hanidig css indelen | Geen vragen  |
+  | articles   | ...                    | ...                 | ...          |
 
   <b>Robin</b>
   Niet aan de SVG viewport komen. Je kan css gewoon als svg aanspreken in de css. 
@@ -270,13 +269,63 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   Moest een nav tussen bij javascript. 
 
   ### Verslag van meeting
+  Uitleg gekregen over Hoe een carosel te maken. + uitleg gekregen waar ronddraai ding te maken/vinden voor in mijn nav.
+</details>
+
+
+
+
+## Voortgang 2 (week 4)
+
+<details>
+  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  Deze week was ik aan het stoeien met GRID, en het sticky maken van de nav. Ook om 'Inquieries' rond te laten draaien en om een slideshow te maken. De homepage is bijna af! Zo blij!  Als ik die punten nog aanpak, en de footer afmaak, dan is de homapage klaar. En dan beginnen we met de moeilijke pagina... de ABOUT pagina. Daarin heb ik twee hele lastige stukjes. Eentje met veel animaties (als ik tijd over heb, maak ik deze), en eentje met een invulformelier, dat een stappen plan laat zien. Hier heb ik denk ik wel extra hulp bij nodig.<br><br>
+
+<b>WAT GEDAAN</b>
+ - pagina 1 proberen af te krijgen. <br>
+ - leren hoe top en sticky in nav werken. <br>
+
+
+ <b>VRAGEN</b>
+ - Kunt u nog een keer uitleggen hoe je forums maakt, en hoe je dit kunt maken, met een 'volgende' knop. Of dat dit alleen werkt bij met Javascript. <br>
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | Safae                 | Zhafira         | Maaike        | Robin        |
+  | ---                   | ---             | ---           | ---          |
+  | Velden en buttons     | positioneren    | Forms         | en dan ik dat|
+  | Plaatjes achter tekst | background img  | Javascript    | dit wil ik   |
+  | screen reader         | ...             | br gebruikt waar het niet mag :D           | ...          |
+
+  <b>Robin</b>
+  Niet aan de SVG viewport komen. Je kan css gewoon als svg aanspreken in de css. 
+  <b>Maaike</b>
+
+
+  <b>Zhafira</b>
+
+
+  <b>Safea</b>
+  Hoe koppel je een input aan een button?
+  Ipv button, submit.
+  < label > input: submit.  Je kan ze samen in een form zetten.
+ 
+ <b>maaike</b>
+ met if else states. Javascript. Display and display none. 
+ max width aan de h2 geven, zodat hij vanzelf afbreekt en geen br nodig is. 
+ max heigth bij seection 2, om Meet your planners lager te zetten op de p tekst eronder.
+
+  ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Ik moet dingen snelle vragen als ik vastloop, omdat er nogal 'vieze' dingen in mijn code staan.
+  - punt 1
   - punt 2
   - nog een punt
-- ...
-
+  - ...
 </details>
 
 
@@ -373,6 +422,7 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   7. [bron] animation nav: https://chatgpt.com/share/68e0eb5e-b7f0-8009-a091-29389efbdb85
   8. [bron] grid calculator: https://cssgrid-generator.netlify.app/
   9. [bron] space between letters: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+  10. [bron] Carousel https://codepen.io/shooft/pen/myVroQM?editors=1100
 
 
 

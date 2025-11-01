@@ -24,14 +24,6 @@ header > p {
     }
 }
 
-header nav p {
-    font-family:'tt_commons_bold';
-    font-size:1.5em;
-    font-style:bold;
-    align-items:center;
-    order:1;
-}
-
 /******************************************/
 /******************************************/
 /*                  MAIN                  */
