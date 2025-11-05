@@ -255,17 +255,17 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   | Safae      | Zhafira                | Maaike              | Robin        |
   | ---        | ---                    | ---                 | ---          |
   | classes    | Automatische carousel  | Flexbox             | Nog niet ver |
-  | sections   | Hoe met javascript     | hanidig css indelen | Geen vragen  |
+  | sections   | Hoe met javascript     | handig css indelen | Geen vragen  |
   | articles   | ...                    | ...                 | ...          |
 
-  <b>Robin</b>
+  <b>Robin</b><br>
   Niet aan de SVG viewport komen. Je kan css gewoon als svg aanspreken in de css. 
 
-  <b>Maaike</b>
+  <b>Maaike</b><br>
   - gebruik top, right, bij de verschillende elementen.
   - svg's kun je laten staan, maar hoeft niet in een mapje te staan. Is wel handig om een map te hebben waar ze allemaal staan. 
 
-  <b>Zhafira</b>
+  <b>Zhafira</b><br>
   Moest een nav tussen bij javascript. 
 
   ### Verslag van meeting
@@ -297,35 +297,33 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 
   | Safae                 | Zhafira         | Maaike        | Robin        |
   | ---                   | ---             | ---           | ---          |
-  | Velden en buttons     | positioneren    | Forms         | en dan ik dat|
-  | Plaatjes achter tekst | background img  | Javascript    | dit wil ik   |
+  | Velden en buttons     | positioneren    | Forms         | ...           |
+  | Plaatjes achter tekst | background img  | Javascript    | ...           |
   | screen reader         | ...             | br gebruikt waar het niet mag :D           | ...          |
 
-  <b>Robin</b>
+  <b>Robin</b><br>
   Niet aan de SVG viewport komen. Je kan css gewoon als svg aanspreken in de css. 
-  <b>Maaike</b>
 
+  <b>Zhafira</b><br>
+...
 
-  <b>Zhafira</b>
-
-
-  <b>Safea</b>
-  Hoe koppel je een input aan een button?
-  Ipv button, submit.
-  < label > input: submit.  Je kan ze samen in een form zetten.
+  <b>Safea</b><br>
+  Hoe koppel je een input aan een button?<br>
+  Ipv button, submit.<br>
+  < label > input: submit.  Je kan ze samen in een form zetten.<br>
  
- <b>maaike</b>
- met if else states. Javascript. Display and display none. 
+ <b>Maaike</b><br>
+ Hoe moet ik de form werkend maken? <br>
+ Met if else states. Javascript. Display and display none. 
  max width aan de h2 geven, zodat hij vanzelf afbreekt en geen br nodig is. 
  max heigth bij seection 2, om Meet your planners lager te zetten op de p tekst eronder.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Als je de grootte van een svg wilt aanpassen, moet deze waardes uit de svg die in de html staan weghalen. Maar kom niet aan de viewport. Dan gaat hij kapot.
+  - Om een form te maken, waarbij je na het invullen naar de volgende pagina gaat, maak je gebruik van javascript. Je gebuikt ook de hide elementen. (later hoorde ik van Sanne dat ik deze niet helemaal hoef uit te werken).
+  - Een h2, heb ik afbroken met een <br>. Ik weet dat dit niet mag, dus hoe kan het anders? Het kan anders door de tekst een maximale width te geven in de css. Dan breekt de tekst zich vanzelf af op het punt dat je wilt.
 </details>
 
 
@@ -338,7 +336,75 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Vorige keer waren dit de punten die verbetered moetsten worden in de website: 
+
+  <b>OUD -> Punten om te verbeteren</b><br>
+  <b>Global code</b><br>
+  • | De errors die er zijn, zijn er van de "Dupilicate ID", "A bad value" en "Div's". Div's staan meestal in de buttons.<br><br>
+
+  <b>Headings</b><br>
+  • | De home pagina heeft geen H1. Wel 3 h2's en h3's, 4 h5's, en 2 h6. <br>
+  • | Er worden ook H's geskipt in de volgorde van de pagina. H4 komt bijvoorbeeld helemaal niet voor.<br><br>
+
+  <b>Lists</b><br>
+  • | Er wordt geen gebruik gemaakt van li elementen op locaties waar dat wel kan, of een betere oplossing kan zijn.<br>
+
+  <b>Images</b><br>
+  • | De website bestaat voor een groot deel uit SVG's. Deze afbeeldingen hebben vaak dezelfde (lange 12345234) namen, en zijn niet goed toegankelijk voor slechtziende mensen die met Tab navigeren door de website.<br>
+  • | De alt in decoratieve images gebruiken geen "0" value.<br>
+  • | Er zijn geen alt teksten, in afbeeldingen waar misschien meer uitleg voor zou moeten zijn.<br>
+
+  <b>Appearance</b><br>
+  • | Er is geen dark mode. Alleen een light mode.<br>
+  • | De site ziet er niet anders uit als het verhoogde contrast in ingesteld. <br>
+  • | Ik kan wel inzoomen en uitzoomen op de pagina, maar ik kan niet met ctrl + de lettertypen groter maken.<br><br>
+
+  <b>Animation</b><br>
+  • | De afbeeldingen blijven van kleur veranderen als je "Verminder Beweging" inschakeld in "toegankelijkheid".<br>
+
+<b>Color contrast</b><br>
+  • | Op de meeste plaatsen is er een goed verschil tussen de kleuren. Maar niet overal is goed het verschil te zien tussen wit, en beige bijvoorbeeld. Voor teksten is deze wel (bijna) altijd goed te onderscheiden.<br>
+  • | maar voor de iconen (logo achtergong, ronding van -> knoppen) niet.<br>
+  • | Er is geen :: Selection colors? Niet gevonden ieg.<br>
+
+
+
+   ### Verbeteringen:
+  <b>NIEUW -> Verbeterde versie</b><br>
+  <b>Global code</b><br>
+  • | Er zijn 2 DIV's gebruikt. Deze zijn als decoratie. Verder zijn er geen DIV's meer.<br>
+
+  <b>Headings</b><br>
+  De headings zijn aangepast. Elke pagina heeft 1 H1. En elke sectie begint met een H2, enzo lager. <br>
+  Headings originele site: <br>
+  <img src="readme-images/koppen_tructuur_origineel.png" width="375px" alt="Headings oude site"><br>
+  Headings verbeterde site <br>
+  <img src="readme-images/koppen_tructuur_namaak.png" width="375px" alt="Headings nieuwe site"><br>
+   De H's staan nu in goede volgorde, en er zijn ook maar 4, ipv 6. In de oude vesie miste ook een h4, maar werd er wel verder geteld naar h6.
+
+   <b>Lists</b><br>
+   • | Er is nu wel gebruikt gemaakt van list elementen bij elementen die bijelkaar horen. 
+   <img src="readme-images/list_elementen.png" width="375px" alt="List element voorbeeld"><br>
+
+   <b>Images</b><br>
+  • | Er zijn nog steeds SVG's gebruikt, maar ze hebben een korte naam gekregen. Een naam geven aan de svg maakt niet uit. Elke SVG heeft zijn eigen, enorm lange code. Dit hoort bij SVG's. Het is ook niet erg dat ze niet met TAB's kunnen worden geselcteerd, want zijn er alleen als decoratie.
+  •c SVG's hebben geen alt teksten nodig. In de png afbeeldingen zijn wel alt teksten toegevoegd, die kort vertellen wat er op de afbeelding te zien is.
+  • | Verder zijn er geen decoratieve images gebruikt. 
+
+  <b>Appearance</b><br>
+  • | Darkmode is toegevoegd.<br>
+  <img src="readme-images/mode_light.png" width="375px" alt="Lightmode">
+  <img src="readme-images/mode_light.png" width="375px" alt="Darkmode"><br>
+  • | Je kan nu inzoomen met command + <br><br>
+
+  <b>Animation</b><br>
+  • | De animaties zijn weggehaald. Alleen nog bij de hover bij de NAV staan ze aan op disco modus. Dit ziet er leuk uit, maar is wel een beetje heftig als je epilepsie hebt. Daarom zou ik het voor volgde keer gewoon 1 kleur houden, zodat het niet teveel prikkels geeft. Voor nu laat ik het staan, om te laten zien dat ik iets met animatie heb gedaan. <br><br>
+
+  <b>Color contrast</b><br>
+  • | De color contrassen zijn verbeterd. Er staat nog een fout in, maar het klop hier, dat er voor de achterkleur 2 dezelfde kleuren zijn gebruikt. <br>
+  <img src="readme-images/colorcontrast_check.jpg" width="375px" alt="Color Contrast checker oud.">
+  <img src="readme-images/color-contrast_2.png" width="375px" alt="Color Contrast chescker Nieuw"><br><b>
+</details>
 
 </details>
 
@@ -352,7 +418,17 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de site bijna klaar! In de eerste weken vond ik het heel lastig om grid te leren. En nog steeds zijn er momenten dat ik niet snap, waarom het niet werkt. Maar heb er nu wel een veel beter begrip van dan eerst! Javasript blijft voor mij een mysterie. Als ik dat wil leren, dan ik zou daar meer tijd in moeten stoppen, omdat ik ook veel ben vergeten van vorig jaar. Het is ook lastig dat internet vaak "makkelijke" voorbeelden geeft, die niet goed aansluiten op de stof die we hebben behandeld. 
+
+  Wat ik nog steeds niet begrijp, is waarom mijn nav niet werkt op de index pagina. Met Mila en Sanne hebben we daar meerdere keren naar gekeken. En in de inspector op de browser dingen aangepast. (door bijvoorbeeld position:fixed; te geven), maar het wilt maar niet lukken! Op de about pagina had ik deze problemen absoluut niet, en werkte het meteen goed. 
+
+  Deze lessen heb ik veel geleerd over symantisch en over selectoren. Dat vond ik voorheen ook niet heel lastig, maar ik weet nu wel het verschil tussen een article en een section, dat Div's alleen gebruikt mogen worden als decoratie, en dat sections helpen om een pagina overzichtelijk te maken, en het makkelijker maken om de vormgeving aan te passen. 
+
+  Wat ik ook lastig vond was dat SVG's vaak een eigen grootte hadden. Deze stond ergens in de enorme SVG code verstopt, en het was een zoekwerk om de widht en height daar te vinden en weg te halen. 
+
+  Elke week heb ik aantekeningen gemaakt in Freeform, een apple app die lijkt op Miro. Daarin staan ook nog aantekeningen van tabel, en de formums. In deze website heb ik alleen de forms gebruikt.
+
+  Ook heb ik alle afbeelding in deze readme, en in op de site, getinyfied met de site: tinypng.com. Dit zodat de site snel kan laden, en het weinig energie kost om op de site te komen.
 
 
   ### Agenda voor meeting

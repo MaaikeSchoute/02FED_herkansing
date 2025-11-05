@@ -4,10 +4,10 @@
 
 main {
   /* min-height: 100vh; */
-  min-width: 100vw;
+  min-width:100vw;
   grid-template-columns:1fr 1fr 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap:0px;
+  grid-row-gap:0px;
   position:relative;
 }
 
@@ -15,7 +15,7 @@ main {
 /*     S1       */
 /****************/
 
-/*bron: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b. helpt me met organiseren en korter schrijven (grid start-end) van code*/
+/*[bron]: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b. helpt me met organiseren en korter schrijven (grid start-end) van code*/
 main section:first-of-type {
     display:grid; 
     grid-template-rows:auto auto auto auto; /* 4 rijen: h2, p, ul, link */
@@ -26,7 +26,7 @@ main section:first-of-type {
 
 main section:first-of-type ul {
     display:grid;
-    grid-template-columns:minmax(20em, 1fr 1fr);
+    grid-template-columns:minmax(20em 1fr 1fr);
     gap:0;
     grid-row:3; /* Korter geschreven */
 }
@@ -446,8 +446,6 @@ main section:nth-child(4) div {
     padding-bottom:3em;
 }
 
-
-
 /* VORMGEVING H2 */
 main section:nth-child(4) h2 {
     grid-row:2;
@@ -481,8 +479,6 @@ main section:nth-child(4) div > figure {
     gap:0;
 }
 
-
-
 /* VORMGEVING DIV> FIGURE > BLAUW 1 */
 main section:nth-child(4) div > figure > figure:nth-child(1) {
     background-color:var(--color-blue);
@@ -490,8 +486,6 @@ main section:nth-child(4) div > figure > figure:nth-child(1) {
     grid-column:1;
     grid-row:1 / 4;
 }
-
-
 
 /* VORMGEVING > FIGURE > BLAUW > GROENE ACHTERGROND VAN IMG */
 main section:nth-child(4) div > figure > figure:nth-child(2) {
@@ -512,7 +506,7 @@ main section:nth-child(4) div > figure > figure:nth-child(2) img {
     grid-row:1 / 3;
     border-radius:50%;
     object-fit:cover;
-    background-color:var(--color-light-green);
+    background-color:var(--color-pink);
 }
 
 main section:nth-child(4) div > img {
@@ -527,7 +521,7 @@ grid-column:2;
     grid-row:1/3;
     border-radius:50%;
     object-fit:cover;
-    background-color:var(--color-light-green);
+    background-color:var(--color-yellow);
     z-index: 10;
 }
 
