@@ -54,7 +54,6 @@ main section:first-of-type > p {
     padding-left:1em;
     padding-bottom:10em;
     font-size:.5em;
-    /* VERWIJDER position: absolute en top */
 }
 
 main section:first-of-type li {
@@ -89,11 +88,3 @@ main section:first-of-type a:hover {
        text-decoration-color:var(--color-yellow);
     }
 
-/****************/
-/*      S2      */
-/****************/
-
-
-/****************/
-/*      S3      */
-/****************/

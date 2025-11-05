@@ -394,7 +394,7 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   <b>Appearance</b><br>
   • | Darkmode is toegevoegd.<br>
   <img src="readme-images/mode_light.png" width="375px" alt="Lightmode">
-  <img src="readme-images/mode_light.png" width="375px" alt="Darkmode"><br>
+  <img src="readme-images/mode_dark.png" width="375px" alt="Darkmode"><br>
   • | Je kan nu inzoomen met command + <br><br>
 
   <b>Animation</b><br>
@@ -402,7 +402,9 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
 
   <b>Color contrast</b><br>
   • | De color contrassen zijn verbeterd. Er staat nog een fout in, maar het klop hier, dat er voor de achterkleur 2 dezelfde kleuren zijn gebruikt. <br>
+  <b>Orginele site</b><br>
   <img src="readme-images/colorcontrast_check.jpg" width="375px" alt="Color Contrast checker oud.">
+  <b>Verbeterde site</b><br>
   <img src="readme-images/color-contrast_2.png" width="375px" alt="Color Contrast chescker Nieuw"><br><b>
 </details>
 
@@ -429,6 +431,8 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   Elke week heb ik aantekeningen gemaakt in Freeform, een apple app die lijkt op Miro. Daarin staan ook nog aantekeningen van tabel, en de formums. In deze website heb ik alleen de forms gebruikt.
 
   Ook heb ik alle afbeelding in deze readme, en in op de site, getinyfied met de site: tinypng.com. Dit zodat de site snel kan laden, en het weinig energie kost om op de site te komen.
+
+  Wat nog beter kan, is dat de css code waarschijnlijk nog korter kan wordern geschreven. Volgende keer zou ik daar beter naar kijken. Dit was ook de eerste keer dat ik gebruik maakte van verschillende css documenten. Meestal schreef ik alles in 1 css document, maar ik vind het eigenlijk wel fijn dat je alles kan organiseren met verschillende stylesheets. De indeling kan ook iets handiger, maar ik was al zo ver, dat het me een halve dat zou duren om alles goed te organiseren. 
 
 
   ### Agenda voor meeting
@@ -489,16 +493,55 @@ Nee | Er is geen :: Selection colors? Niet gevonden ieg.<br><br>
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. [bron 1](https://www.seoreviewtools.com/html-headings-checker/) - het checken van de headings op de webpagina.
-  2. [bron 2](https://ralfvanveen.com/en/tools/alt-attribute-checker/) Alt checker website
-  3. [bron3]SVG export - Google Chrome extentie om SVG's van een webpagina te scrapen.
-  4. [bron4] Hoe maak je een form?: https://www.google.com/search?q=hoe+maak+je+unvul+form+html&sca_esv=f04038ad81816743&sxsrf=AE3TifN4i9sADXbdX9Vx2Jl7qCX_S6ff_A%3A1758367077756&ei=ZY3OaJzpLYzq7_UPgZCVoQo&ved=0ahUKEwjcr7fom-ePAxUM9bsIHQFIJaQQ4dUDCBA&uact=5&oq=hoe+maak+je+unvul+form+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2hvZSBtYWFrIGplIHVudnVsIGZvcm0gaHRtbDIIEAAYgAQYogQyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSIgtUK8EWIUrcAR4AZABAJgBeKAB9xKqAQQyNS41uAEDyAEA-AEBmAIioALeE6gCEMICBxAjGCcY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgsQLhiABBjRAxjHAcICBRAAGIAEwgIFEC4YgATCAggQLhiABBjUAsICCxAuGIAEGMcBGK8BwgIKECMY8AUYJxjJAsICCBAAGIAEGMsBwgIHEAAYgAQYCsICBhAAGBYYHsICCBAAGAgYDRgewgIHEAAYgAQYDcICCRAAGIAEGBMYDcICCBAAGBMYDRgewgIKEAAYExgIGA0YHsICBRAhGKABwgIHECEYoAEYCsICChAAGAgYChgNGB7CAgsQABiABBiGAxiKBZgDBPEFHL521MX8CMO6BgYIARABGAGSBwQyOC42oAfzxQGyBwQyNC42uAfQE8IHBjUuMjAuOcgHUQ&sclient=gws-wiz-serp
-  5. [bron] Forms uitleg: https://chatgpt.com/share/68cea3ac-1ffc-8009-b70a-63681384af5e
-  6. [bron] min-max grid uitleg en error fix: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b
+  1. [BRON](https://www.seoreviewtools.com/html-headings-checker/) - het checken van de headings op de webpagina.
+  2. [BRON](https://ralfvanveen.com/en/tools/alt-attribute-checker/) Alt checker website
+  3. [BRON]SVG export - Google Chrome extentie om SVG's van een webpagina te scrapen.
+  4. [BRON] Hoe maak je een form?: https://www.google.com/search?q=hoe+maak+je+unvul+form+html&sca_esv=f04038ad81816743&sxsrf=AE3TifN4i9sADXbdX9Vx2Jl7qCX_S6ff_A%3A1758367077756&ei=ZY3OaJzpLYzq7_UPgZCVoQo&ved=0ahUKEwjcr7fom-ePAxUM9bsIHQFIJaQQ4dUDCBA&uact=5&oq=hoe+maak+je+unvul+form+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2hvZSBtYWFrIGplIHVudnVsIGZvcm0gaHRtbDIIEAAYgAQYogQyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSIgtUK8EWIUrcAR4AZABAJgBeKAB9xKqAQQyNS41uAEDyAEA-AEBmAIioALeE6gCEMICBxAjGCcY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgsQLhiABBjRAxjHAcICBRAAGIAEwgIFEC4YgATCAggQLhiABBjUAsICCxAuGIAEGMcBGK8BwgIKECMY8AUYJxjJAsICCBAAGIAEGMsBwgIHEAAYgAQYCsICBhAAGBYYHsICCBAAGAgYDRgewgIHEAAYgAQYDcICCRAAGIAEGBMYDcICCBAAGBMYDRgewgIKEAAYExgIGA0YHsICBRAhGKABwgIHECEYoAEYCsICChAAGAgYChgNGB7CAgsQABiABBiGAxiKBZgDBPEFHL521MX8CMO6BgYIARABGAGSBwQyOC42oAfzxQGyBwQyNC42uAfQE8IHBjUuMjAuOcgHUQ&sclient=gws-wiz-serp
+  5. [BRON] Forms uitleg: https://chatgpt.com/share/68cea3ac-1ffc-8009-b70a-63681384af5e
+  6. [BRON] min-max grid uitleg en error fix: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b
   7. [bron] animation nav: https://chatgpt.com/share/68e0eb5e-b7f0-8009-a091-29389efbdb85
-  8. [bron] grid calculator: https://cssgrid-generator.netlify.app/
-  9. [bron] space between letters: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
-  10. [bron] Carousel https://codepen.io/shooft/pen/myVroQM?editors=1100
+  8. [BRON] grid calculator: https://cssgrid-generator.netlify.app/
+  9. [BRON] space between letters: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+  10. [BRON] Carousel https://codepen.io/shooft/pen/myVroQM?editors=1100<br>
+
+  STYLE_INDEX.CSS
+  1. [BRON] EASE IN EASE OUT | https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover
+  2. 
+
+  HOMEPAGE_HEADER
+  1. [BRON] ROTATE NAV P | https://codepen.io/shooft/pen/bNEooQv?editors=1100
+
+  HOMEPAGE_MAIN.css
+  1. [BRON] grid fixen in main: https://claude.ai/share/c01c7c22-ea94-4deb-b20e-919cce0d731b. helpt me met organiseren en korter schrijven (grid start-end) van code
+  2. [BRON] https://www.shecodes.io/athena/103773-how-to-uppercase-a-text-on-css#:~:text=To%20uppercase%20text%20in%20CSS,the%20targeted%20element%20to%20uppercase.
+  3. [BRON] https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+  4. [BRON] where to align?: https://css-tricks.com/snippets/css/complete-guide-grid/
+  5. [BRON] De volgende bronnen zijn gebruikt voor het maken van deze carousel. + Dit was uitgelegd tijdens de feedback rondes.<br>
+  https://developer.chrome.com/blog/carousels-with-css#carousel_gallery<br>
+  https://chrome.dev/carousel-configurator/<br>
+  https://developer.chrome.com/docs/css-ui/anchor-positioning-api<br>
+  https://chrome.dev/anchor-tool/
+  6. [BRON] Vul gehele achtergrond met blokjes | https://claude.ai/public/artifacts/74e4e7a9-c634-4696-87e1-bd1e723bd540 + Code hulp van Sanne
+  7. [BRON] Word break, en fix de grid code | https://claude.ai/share/109a203b-3bb1-4d7d-88ee-183f51e32e0e<br>
+
+  
+  ABOUT_HEADER
+  1. [BRON] Voorbeeld van Sanne: https://codepen.io/shooft/pen/bNEooQv?editors=1100
+
+  ABOUT_MAIN
+  1. [BRON] HOE SPREEK JE DETAILLS ELEMENTEN AAN IN CSS? 1: https://codepen.io/SitePoint/pen/wvNwrwZ
+  2. [BRON] HOE SPREEK JE DETAILLS ELEMENTEN AAN IN CSS? 2: https://claude.ai/share/ac86c446-da75-4da5-b7b0-da287616981a
+
+
+  SCRIPT.JS
+  1. [BRON] PROMT: hi chat. Ik heb een website na gemaatk met html en css, en nu moet ik daar nog een javascript element aan toevoegen. Ik weet alleen helemaal niks van javascript. Kun jij me helpen om dit uit te leggen, of mijn naar (gratis) bronnen te sturen er iets meer over kan leren? | 
+  https://claude.ai/public/artifacts/3512b5ad-9fb9-4c2c-8b88-6288624ce18c
+
+  
+  FOOTER.css
+  1. [BRON] CIKELS OP DE BODEM | SANNE'S HULP + https://claude.ai/share/109a203b-3bb1-4d7d-88ee-183f51e32e0e <br>
+
+
 
 
 

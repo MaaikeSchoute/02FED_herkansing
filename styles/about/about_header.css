@@ -56,7 +56,6 @@ header nav p {
      /*https://codepen.io/shooft/pen/bNEooQv?editors=1100*/
     aspect-ratio:1;
     animation-name:draaien;
-/* 	animation-duration:3s; */
 	animation-timing-function:linear;
 	animation-timeline: scroll(block root);
 }
