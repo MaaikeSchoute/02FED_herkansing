@@ -42,7 +42,13 @@ main section:first-of-type ul {
 main section:first-of-type ul li {
   padding:1em;
   position:relative;
-  height:35em;
+  height:45em;
+}
+
+@media (min-width: 800px) {
+    main section:first-of-type ul li {  
+        height:35em;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -231,6 +237,7 @@ main section:nth-child(2) figure p {
     display:block;
     padding:0.3em;
     background-color:var(--color-pink);
+    z-index:10;
 }
 
 main section:nth-child(2) figure p:nth-child(1) {

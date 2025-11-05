@@ -143,7 +143,6 @@ header nav p:hover {
 }
 
 
-
 @keyframes disco-color {
     0% { background-color: var(--color-pink); }
     10% { background-color: var(--color-yellow); }
